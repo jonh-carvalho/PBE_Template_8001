@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+
+{% load static %}
+
+{% block content %}
+    <h1>Lista de Produtos</h1>
+    <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 20px;">
+        {% for produto in produtos %}
+            <div style="border: 1px solid #ccc; padding: 10px;">
+                <img src="{% static 'path/to/your/image.jpg' %}" alt="{{ produto.nome }}" style="width: 100%;">
+                <a href="{% url 'produto_detail' produto.pk %}">{{ produto.nome }}</a>
+            </div>
+        {% endfor %}
+    </div>
+    <a href="{% url 'produto_create' %}">Adicionar Produto</a>
+{% endblock %}
