@@ -1,0 +1,4 @@
+site_name: PBE
+theme:
+  name: mkdocs
+  locale: pt_BR
