@@ -1,0 +1,257 @@
+body {
+    background-color: #343a40;
+    /* Cor de fundo escura */
+    color: #ffffff;
+    /* Cor do texto */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* Fonte moderna */
+
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container {
+    text-align: center;
+    margin-top: 50px;
+}
+
+h1 {
+    color: #61dafb;
+}
+
+.btn-primary {
+    
+    color: #ffffff;
+    /* Cor do texto do botão */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    /* Efeito de sombra */
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.btn-primary:hover {
+    /* Cor da borda mais escura ao passar o mouse */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    /* Efeito de sombra mais pronunciado */
+    color: #ffffff;
+    background-color: #0056b3;
+    border-color: #0056b3;
+}
+
+.btn-secondary {
+    background-color: #6c757d;
+    border-color: #6c757d;
+}
+
+.btn-secondary:hover {
+    color: #ffffff;
+    background-color: #5a6268;
+    border-color: #545b62;
+}
+
+.table {
+    background-color: #1e1e1e;
+    /* Cor de fundo da tabela */
+}
+
+.table th,
+.table td {
+    border-color: #333;
+    /* Cor da borda da tabela */
+}
+
+/* Estilizando o Modal */
+.modal-content {
+    background-color: #1e1e1e;
+    /* Cor de fundo escura do modal */
+    color: #ffffff;
+    /* Cor do texto do modal */
+}
+
+.modal-header {
+    border-bottom: 1px solid #333;
+    /* Cor da borda inferior do cabeçalho do modal */
+}
+
+.modal-title {
+    color: #61dafb;
+    /* Cor do título do modal */
+}
+
+.modal-body {
+    border-top: 1px solid #333;
+    /* Cor da borda superior do corpo do modal */
+}
+
+.avatar-icon {
+    font-size: 30px;
+    /* Tamanho do ícone */
+    margin: 5px;
+    /* Espaçamento entre ícones */
+    cursor: pointer;
+    /* Cursor ao passar o mouse sobre o ícone */
+}
+
+.selected-avatar {
+    border: 2px solid #61dafb;
+    /* Borda ao redor do ícone selecionado */
+    border-radius: 50%;
+    /* Borda arredondada para ícone selecionado */
+}
+
+.edit-icon {
+    font-size: 60px;
+    color: #28a745;
+    /* Cor verde para o ícone de edição */
+    margin-bottom: 20px;
+}
+
+form {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-control {
+    background-color: #1e1e1e;
+    color: #ffffff;
+    border: 1px solid #333;
+    border-radius: 5px;
+}
+
+
+
+/* DELETE */
+
+body {
+    background-color: #343a40;
+    color: #ffffff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.delete-container {
+    text-align: center;
+}
+
+.delete-box {
+    background-color: #1e1e1e;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.delete-icon {
+    font-size: 50px;
+    color: #dc3545;
+    /* Cor vermelha para ícone de exclusão */
+    margin-bottom: 10px;
+}
+
+.btn {
+    display: inline-block;
+    font-weight: 400;
+    color: #ffffff;
+    text-align: center;
+    vertical-align: middle;
+    user-select: none;
+    background-color: #dc3545;
+    /* Cor vermelha para botão de exclusão */
+    border: 1px solid #dc3545;
+    /* Cor vermelha para borda do botão de exclusão */
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: 0.25rem;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.btn:hover {
+    color: #ffffff;
+    background-color: #c82333;
+    /* Cor mais escura ao passar o mouse sobre o botão de exclusão */
+    border-color: #bd2130;
+    /* Cor mais escura ao passar o mouse sobre a borda do botão de exclusão */
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.btn-primary:hover {
+    color: #ffffff;
+    background-color: #0056b3;
+    border-color: #0056b3;
+}
+
+/* CADASTRO */
+
+body {
+    background-color: #343a40;
+    color: #ffffff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.success-container {
+    text-align: center;
+}
+
+.success-box {
+    background-color: #1e1e1e;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.success-icon {
+    font-size: 50px;
+    color: #28a745;
+    margin-bottom: 10px;
+}
+
+.btn {
+    display: inline-block;
+    font-weight: 400;
+    color: #ffffff;
+    text-align: center;
+    vertical-align: middle;
+    user-select: none;
+    background-color: #007bff;
+    border: 1px solid #007bff;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: 0.25rem;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.btn-primary {
+    background-color: #28a745;
+    border-color: #28a745;
+}
+
+.btn:hover {
+    color: #ffffff;
+    background-color: #218838;
+    border-color: #1e7e34;
+}
